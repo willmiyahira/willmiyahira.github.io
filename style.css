@@ -7,7 +7,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: white;
+    color: blue;
     font-size: 20px;
 }
 
@@ -38,3 +38,9 @@ a {
   background-color: #04AA6D;
   color: white;
 }
+
+<style>
+  .bottom-three {
+     margin-bottom: 3cm;
+  }
+</style>
