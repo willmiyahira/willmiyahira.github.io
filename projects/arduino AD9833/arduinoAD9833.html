@@ -61,7 +61,52 @@
                 
 
                   <h3 id="Bit Operations">Bit Operations</h3>
+
+                  <p>
+                    The AD9833 DDS has a 16-bit control register that we can use to configure the device. In practice this register is just a string of zeros and ones, so what we need to be able to do is change the value of a specific bit in the register without affecting the other fifteen. I refer to them here as bit operations. 
+                    The two operations we will use here are the AND and OR operators. The function of these operators is pretty simple to understand.
+                  </p>
+                  <h5> AND Operations</h5>
+                  <p>
+                    If we have two bit strings, the act of performing the AND operation on these two strings is:
+                  </p>
+                  <p>
+                    &emsp;&emsp;&emsp; 10110 <br>
+                    AND&emsp; 11010 <br>
+                    ------------------------ <br>
+                    &emsp;&emsp;&emsp; 10011
+                  </p>
+                  <p>
+                    We can see that if both bits at the same position in the string are the same (i.e. both zero or both one) then the resultant bit is a one. However, if the bits are not the same then the resultant bit is a zero. 
+                  </p>
                   
+                  <h5> OR Operations</h5>
+                  <p>
+                    If we have two bit strings, the act of performing the OR operation on these two strings is:
+                  </p>
+                  <p>
+                    &emsp;&emsp;&ensp;&nbsp; 10110 <br>
+                    OR &emsp; 11010 <br>
+                    ------------------------ <br>
+                    &emsp;&emsp;&ensp;&nbsp; 11110
+                  </p>
+                  <p>
+                    We can see that if either bits at the same position in the string is a one, then the resultant bit is a one. However, if both bits are zero the same then the resultant bit is a zero. 
+                  </p>
+
+                  <h5>Single Bit Manipulation</h5>
+                  <p>So how can we utilize the AND and OR operations to manipulate just one bit in the 16-bit control register? Let's say we want to change set a bit to 1. In this case we can use the OR operator like so: <br>
+                  &emsp;&emsp;&ensp;&nbsp; 11010011<b>0</b>1010110 <br>
+                  OR &emsp; 00000000<b>1</b>0000000 <br>
+                  ------------------------------------------ <br>
+                  &emsp;&emsp;&ensp;&nbsp; 11010011<b>1</b>1010110 <br>
+                  We see that by using a bit string of all zeros except for a one in the position we want to change we can flip the control bit from a zero to a one. 
+                  Similarly, flipping a control bit from 1 to 0 is done with the AND operation: <br>
+                  &emsp;&emsp;&emsp;&nbsp; 11010011<b>1</b>1010110 <br>
+                  AND &emsp; 11111111<b>0</b>1111111 <br>
+                  ------------------------------------------ <br>
+                  &emsp;&emsp;&ensp;&nbsp; 11010011<b>0 </b>1010110 <br>
+                  </p>
 
                   <h3 id="Interface with Arduino">Interfacing with an Arduino</h3>
                   
