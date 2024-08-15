@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/whmPortrait.jpg"
+  avatar           : "whmPortrait.png"
   name             : "William Miyahira"
   pronouns         : # example: "she/her"  
   bio              : "AMO PhD Researcher"
