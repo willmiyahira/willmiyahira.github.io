@@ -12,8 +12,8 @@ title                    : "William Miyahira"
 title_separator          : "-"
 name                     : &name "William Miyahira"
 description              : &description "PhD Student at William & Mary"
-url                      : https://willmiyahira.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : https://willmiyahira.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "willmiyahira/willmiyahira.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
