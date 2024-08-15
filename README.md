@@ -1,194 +1,51 @@
-# A website template for academics
+# Academic Pages
 
-## Users
+![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 
-Some users:
-<a href="https://ilafly.github.io/" target="_blank">★</a>
-<a href="https://i-vesseg.github.io/" target="_blank">★</a>
-<a href="https://xfangsn.github.io/" target="_blank">★</a>
-<a href="https://joshuagob.github.io" target="_blank">★</a>
-<a href="https://bczheng.com/" target="_blank">★</a>
-<a href="https://bazilinskyy.github.io/" target="_blank">★</a>
-<a href="https://www.coreytcallaghan.com/" target="_blank">★</a>
-<a href="https://minseoksong.github.io/" target="_blank">★</a>
-<a href="https://acme-group-cmu.github.io/" target="_blank">★</a>
-<a href="https://barrylee36.github.io/" target="_blank">★</a>
-<a href="https://adisun94.github.io/" target="_blank">★</a>
-<a href="https://comp-physics.group" target="_blank">★</a>
-<a href="https://spike.doc.ic.ac.uk/" target="_blank">★</a>
-<a href="http://www.msc.univ-paris-diderot.fr/~berhanu/" target="_blank">★</a>
-<a href="https://mashadab.github.io/" target="_blank">★</a>
-<a href="https://home.iitk.ac.in/~lalit/" target="_blank">★</a>
-<a href="https://ethan-pickering.github.io/" target="_blank">★</a>
-<a href="https://pedro-dm-gomes.github.io/" target="_blank">★</a>
-<a href="https://3tbk.github.io/3tbk/" target="_blank">★</a>
-<a href="https://felipesua.github.io/" target="_blank">★</a>
-<a href="https://shivvrat.github.io/" target="_blank">★</a>
-<a href="https://ritamraha.github.io/" target="_blank">★</a>
-<a href="https://matsesseldeurs.github.io/" target="_blank">★</a>
-<a href="https://michelleblom.github.io/" target="_blank">★</a>
-<a href="https://jrd971000.github.io/" target="_blank">★</a>
-<a href="https://melashri.net/" target="_blank">★</a>
-<a href="https://sahatulika15.github.io" target="_blank">★</a>
-<a href="https://mzhanglab.github.io" target="_blank">★</a>
-<a href="https://soar-lab.github.io" target="_blank">★</a>
-<a href="https://azharghafoor.github.io/" target="_blank">★</a>
-<a href="https://hyunwoo.info/" target="_blank">★</a>
-<a href="https://computervision0.github.io/" target="_blank">★</a>
-<a href="https://adrashid.github.io/personal-webpage/index.html" target="_blank">★</a>
-<a href="https://aleemkhan62.github.io/" target="_blank">★</a>
-<a href="https://vaibhavb007.github.io/" target="_blank">★</a>
-<a href="https://gabry993.github.io/" target="_blank">★</a>
-<a href="https://shantnuu.github.io/" target="_blank">★</a>
-<a href="https://wenbinluomath.github.io/" target="_blank">★</a>
-<a href="https://aibio-lab.github.io/" target="_blank">★</a>
-<a href="https://shantnuu.github.io/" target="_blank">★</a>
-<a href="https://wenbinluomath.github.io/" target="_blank">★</a>
-<a href="https://dartsushi.github.io/" target="_blank">★</a>
-<a href="https://efstathia-soufleri.github.io/" target="_blank">★</a>
-<a href="https://zchoffin.github.io/" target="_blank">★</a>
-<a href="https://wangyb97.github.io/" target="_blank">★</a>
-<a href="https://sgleem.github.io/" target="_blank">★</a>
-<a href="https://has97.github.io/" target="_blank">★</a>
-<a href="https://albertgassol1.github.io/" target="_blank">★</a>
-<a href="https://seanpark05.github.io/" target="_blank">★</a>
-<a href="https://miki998.github.io/" target="_blank">★</a>
+Academic Pages is a Github Pages template for academic websites.
 
-__If you are using this template, feel free to share your site with me, and I'll add it here!__
+# Getting Started
 
-## Introduction 
+1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
+1. Click the "Use this template" button in the top right.
+1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
+1. Set site-wide configuration and add your content.
+1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
+1. Check status by going to the repository settings, in the "GitHub pages" section
+1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
-This is a statically-generated Jekyll/Liquid/Bootstrap-based website template for academics.
-I started with the [Allan lab](https://www.allanlab.org/) webpage and modified it into a personal academic webpage that met my requirements.
-I worked in a unique set of the features that I desired and could not find in publicly available templates elsewhere.
-Some examples are:
+See more info at https://academicpages.github.io/
 
-* Automatically generated buttons for DOI/PDF/ARXIV/BIB/Abstract information
-  * via Jekyll Scholar
-* Bibliography information and abstracts open in drown-down wells via buttons
-* Fontawesome icons (email, CV, Google Scholar, ResearchGate, GitHub, etc.)
-* Dark color scheme via Bootswatch
-* Consistent and attractive `About me` page
+## Running Locally
 
-I encourage using this webpage as a template for your academic website.
-The remainder of this document describes how to do this.
-Broadly speaking, there are three steps:
+When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
 
-* [Fork](#fork-and-build)
-* [Customize](#customization)
-* [Host](#hosting)
+1. Clone the repository and made updates as detailed above.
+1. Make sure you have ruby-dev, bundler, and nodejs installed
+    
+    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
+    ```bash
+    sudo apt install ruby-dev ruby-bundler nodejs
+    ```
+    On MacOS the commands are:
+    ```bash
+    brew install ruby
+    brew install node
+    gem install bundler
+    ```
+1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
 
-## Fork and build
+If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
 
-* Fork [this repository](https://github.com/sbryngelson/sbryngelson.github.io) by clicking the `fork` button in the top-right corner of its Github page.
-* Install [Jekyll](https://jekyllrb.com/docs/installation/)  (version less than 4.0 required) on your local computer
-    * On MacOS, you will need to upgrade your Ruby version from the depricated v2.3 that is shipped. Follow the above Jekyll instructions closely.
-* Run `$ bundle exec jekyll serve` in the repository root directory
-* Your site is now hosted locally at `localhost:4000`, which you can access with your web browser.
-   * It will be automatically rebuilt as you save changes to the files it contains.
-   Refreshing your web browser reveals these changes.
+# Maintenance
 
-Note:
-* This webpage uses Jekyll plugins like Jekyll Scholar to automatically build your bibliography. 
-  If you are using GitHub pages, you will have to build the site with the `Rakefile` in the root directory of the source branch.
-  You can do so by first modifying the file as appropriate and then, after pushing your changes, execute `rake publish`.
+Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
 
-## Customization
+This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
 
-* Modify `_config.yml` as appropriate
-* Modify YAML database files, located in `_data/*.yml`, as appropriate
-* Modify individual pages, located in `_pages/*.md`, as appropriate
+## Bugfixes and enhancements
 
-### Navbar
+If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
 
-The pages in the top navbar are in the `_config.yml` file.
-The typical options are already included or commented on, though additional pages can be created and listed here.
-
-### Creating or editing pages
-
-All pages are located in the `_pages` directory.
-Pages generally load information from YAML databases located as `_data/*.yml`.
-Creating new pages can be done by using existing pages as a template.
-
-#### Page header information
-
-All pages require header information.
-Example header data for the 'Talks' page is below.
-```
----
-title: "Talks"
-layout: gridlay
-sitemap: false
-permalink: /talks/
----
-```
-The `layout` variable corresponds to HTML layouts in the `_layouts` directory.
-The difference between most layouts is subtle, and `gridlay` can generally be used.
-The permalink must be unique for each page and correspond to the directory storing the page in the compiled HTML.
-Refer to your pages in `_config.yml` via the `title` variable.
-
-#### Markdown
-
-All pages are written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) as `*.md`.
-HTML commands and CSS styles can be directly used in a markdown files.
-
-#### Publication page and database
-
-The publications and talks are now listed via Jekyll Scholar.
-The bibliography file `ref.bib` is located in the `assets/` directory.
-Modify according to your needs.
-
-## Hosting
-
-Once your site has been modified to fit your needs, you should host it somewhere so others can access it.
-
-### Github pages
-
-A simple way to host your site for free is via [Github Pages](https://pages.github.com/).
-This will provide you with a free domain name at your_github_username.github.io.
-Instructions on how to do this are available on their page.
-They generally involve creating a repository on your Github titled `your_github_username.github.io` and uploading your files there (everything except the `_site/` directory, which the GitHub Pages service will generate using its own version of Jekyll).
-Then, GitHub will automatically rebuild your site every time you push a commit to the repository (no bundle/Jekyll commands required).
-
-### Custom domain names
-
-You can use a standard domain service (e.g. [GoDaddy](https://www.godaddy.com/)) to purchase a domain name.
-Then, using the `CNAME` file and modifying the DNS settings of the domain service, you can direct your custom domain to the GitHub Pages-generated site.
-Detailed instructions for doing this for GoDaddy domains are available [here](https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b), though analogous instructions apply to other services.
-
-### Hosting elsewhere
-
-If you already have a hosting service for a static HTML webpage, such as some universities provide, you can build your website locally using `bundle exec jekyll serve`.
-Then, upload the resulting files to this server via SSH or FTP via the `_site/` directory.
-Be sure that the `site.url` and `site.baseurl` are set appropriately in the `_config.yml` file.
-
-## Alternatives
-
-### Static website generators
-
-A list of static webpage generators is available [here](https://www.staticgen.com/).
-For academic purposes, I believe most people use [Jekyll](https://jekyllrb.com/) or [Hugo](https://gohugo.io/).
-I am mostly unaware of their relative merits.
-However, both are relatively easy to use and offer many templates to base your ideas off of.
-This, in combination with their large user bases, makes them particularly attractive.
-This site is built with Jekyll.
-
-### Templates
-
-Other Jekyll templates are, of course, available.
-Some of these are viable for very simple academic pages with little tuning:
-* [Minimal mistakes](https://mmistakes.github.io/minimal-mistakes/)
-* [al-folio](https://github.com/alshedivat/al-folio)
-* [academicpages](https://academicpages.github.io/)
-
-However, they do not natively include many of the features I list at the top.
-For this reason, I decided to construct my own.
-
-## Acknowledgment
-
-I credit the [Allen Lab](https://www.allanlab.org/) for creating a beautiful academic research group webpage.
-Many parts of this site were adopted or copied from their laboratory webpage.
-
-## License
-
-MIT
+Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
