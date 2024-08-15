@@ -16,9 +16,8 @@ One of my first major projects during my PhD was the simulation of a microwave a
 [Link to Paper](https://www.mdpi.com/2218-2004/9/3/54)
 
 ## Dipoles in Quantum Field Theory
-<img src="/images/dipolesInQFTPaper.png" align="left" width="45%"/>
+<img src="/images/dipolesInQFTPaper.png" align="left" width="40%"/>
 This work came during a summer working with Dr. David Latimer at the University of Puget Sound. We show that in the low-energy limit, one can derive the classical electric and magnetic fields of a pure dipole from quantum field theory (QFT) calculations. There's also a nice section on Fourier transforms as welll.
-   
 [Link to Paper](https://pubs.aip.org/aapt/ajp/article-abstract/87/2/146/148278/Dipoles-in-quantum-field-theory?redirectedFrom=fulltext)
 
 ## Dampened Drum Mode Decay
