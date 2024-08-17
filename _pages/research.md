@@ -22,7 +22,7 @@ This work came during a summer working with Dr. David Latimer at the University 
 <a href="/files/Dipoles in QFT.pdf" target="_blank">Link to Paper</a>.
 
 ## Dampened Drum Mode Decay
-<img src="/images/ESPIpic.png" align="left" width="40%"/>
+<img src="/images/ESPIpic.png" align="left" width="40% padding-right:10px"/>
 As a drummer and percussionist, I often put something on the head of the drum (i.e. a wallet, Moongel, etc.) to eliminate high-frequency pitches when the drum is struck. I brought the idea of studying how using these dampeners effect the decay times of the different normal modes of the drum to Dr. Randy Worland at the University of Puget Sound, who has expertise in the physics of musical accoustics. One of the best parts of this work was being able to use an electronic speckle pattern interferometer (ESPI) to image the normal modes of a drum in real time. In the picture you can actually see the shape of the normal modes! We were able to use a spectrum analyzer in waterfall mode to measure the decay rates of different modes to pin down which rang out when struck and measure how the addition of a dampener causes certain modes to decay faster.
 
 More details can be found in <a href="/files/drumheadDecayWorlandProceeding.pdf" target="_blank">this conference proceeding</a>. 
