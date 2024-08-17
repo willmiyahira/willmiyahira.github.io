@@ -26,3 +26,9 @@ S. Du, A. R. Ziltz, **W. Miyahira**, and S. Aubin\
 **W. Miyahira**, D.C. Latimer\
 <a href="/files/Dipoles in QFT.pdf" target="_blank">Dipoles in Quantum Field Theory</a>\
 *Am. J. Phys.* 87, 146–152 (2019).
+
+## Conference Proceedings
+
+R. Worland, **W. Miyahira**\
+<a href="/files/drumheadDecayWorlandProceeding.pdf" target="_blank">Physics of musical drum head damping using externally applied products</a>\
+*Proc. Mtgs. Acoust.* 35, 035004 (2018).
