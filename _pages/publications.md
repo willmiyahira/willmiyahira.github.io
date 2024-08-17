@@ -13,6 +13,16 @@ author_profile: true
 
 {% include base_path %}
 
+## Journal Articles
+
 S. Du, A. R. Ziltz, **W. Miyahira**, and S. Aubin\
-<a href="/_publications/Suppression of potential roughness in atom-chip ac Zeeman traps.pdf">Suppression of potential roughness in atom-chip ac Zeeman traps</a>\
-Phys. Rev. A 105, 053127 (2022).
+<a href="/_publications/Suppression of potential roughness in atom-chip ac Zeeman traps.pdf" target="_blank">Suppression of potential roughness in atom-chip ac Zeeman traps</a>\
+*Phys. Rev. A* 105, 053127 (2022).
+
+**W. Miyahira**, A. P. Rotunno, S. Du, and S. Aubin\
+<a href="/_publications/Microwave Atom Chip Design.pdf" target="_blank">Microwave atom chip design</a>\
+*MDPI Atoms* 9, 54 (2021).
+
+**W. Miyahira**, D.C. Latimer\
+<a href="/_publications/Dipoles in QFT.pdf" target="_blank">Dipoles in Quantum Field Theory</a>\
+*Am. J. Phys.* 87, 146–152 (2019).
