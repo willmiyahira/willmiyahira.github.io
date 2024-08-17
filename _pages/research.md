@@ -8,6 +8,8 @@ author_profile: true
 
 ## Microwave Source with Digital Phase Control
 
+In order to trap and manipulate ultra-cold atoms in an AC Zeeman potential we need to be able to precisely control the relative phase between neighboring atom chip traces. I designed and constructed a multi-channel source centered at 6.834 GHz (Rb87 ground hyperfine splitting) using IQ modulation. This source offers precise digital phase control between channels, agilt frequency sweeping (+/- 50 MHz scan range), as well as ultra-low phase noise (around 90 dBc). Because of the precise control it provides I decided to name it after the rock climber Adam Ondra, who is able to make some of the hardest climbs in the world operating with great precision.
+
 ## Microwave Atom Chip Design
 
 <img src="/images/microwaveAtomChipDesignPaper.png" align="left" width="45%"/>
