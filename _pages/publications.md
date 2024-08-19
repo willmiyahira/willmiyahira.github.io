@@ -29,11 +29,10 @@ S. Du, A. R. Ziltz, **W. Miyahira**, and S. Aubin\
 
 ## Conference Proceedings
 
-R. Worland, **W. Miyahira**\
-
 **W. Miyahira**, S. Aubin\
 <a href="/files/SPIEproceeding2024.pdf" target="_blank">Potential roughness suppression in a RF AC Zeeman atom chip trap</a>\
 *Quantum Sensing, Imaging, and Precision Metrology II. Vol. 12912. SPIE, 2024.
 
+R. Worland, **W. Miyahira**\
 <a href="/files/drumheadDecayWorlandProceeding.pdf" target="_blank">Physics of musical drum head damping using externally applied products</a>\
 *Proc. Mtgs. Acoust.* 35, 035004 (2018).
