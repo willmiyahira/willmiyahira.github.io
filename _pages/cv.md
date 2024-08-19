@@ -20,5 +20,14 @@ Education
 
 Employment History
 ======
-* Graduate Research Assistant, William & Mary
+* Graduate Research Assistant, William & Mary (2020-present)
     * Working in the Ultra-cold Atom Lab of Dr. Seth Aubin using atoms cooled to near absolute zero temperatures to make precision measurements of inertial forces and fundamental 
+    * Experimentally observe potential roughness suppression in an AC Zeeman atom chip trap
+    * Designed and constructed a multi-channel microwave source at 6.834 GHz based on IQ modulation with precision digital phase control, agile frequency sweeping (+/- 50 MHz), and low phase noise
+    * Simulation of atom chip structures (microstrips, CPWs, resonators) in HFSS, FEKO, and Sonnet
+
+* Research Assistant, University of Puget Sound (2018)
+    * Worked with Dr. David Latimer to investigate methods of polarizing Majorana fermions via their anapole moment
+
+* Research Assistant, University of Puget Sound (2017)
+    * Worked with Dr. Randy Worland to experimentally investigate the effects of commercial dampeners on the modal decay rates of a circular drum
