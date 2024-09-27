@@ -31,3 +31,9 @@ Employment History
 
 * Research Assistant, University of Puget Sound (2017)
     * Worked with Dr. Randy Worland to experimentally investigate the effects of commercial dampeners on the modal decay rates of a circular drum
+
+Honors and Awards
+======
+* Virginia Space Grant Consortium Graduate Fellowship (2022-24)
+* University of Puget Sound Concerto Aria Competition Winner (2018)
+* Eagle Scout (2015)
