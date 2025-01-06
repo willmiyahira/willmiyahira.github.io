@@ -15,6 +15,10 @@ author_profile: true
 
 ## Journal Articles
 
+A.P. Rotunno, **W. Miyahira**, S. Du, and S. Aubin\
+<a href="/files/Radio_frequency ac Zeeman force for ultracold atoms.pdf" target="_blank">Radio-frequency ac Zeeman force for ultracold atoms</a>\
+*Phys. Rev. A* 110, 063321(2024).
+
 S. Du, A. R. Ziltz, **W. Miyahira**, and S. Aubin\
 <a href="/files/Suppression of potential roughness in atom-chip ac Zeeman traps.pdf" target="_blank">Suppression of potential roughness in atom-chip ac Zeeman traps</a>\
 *Phys. Rev. A* 105, 053127 (2022).
