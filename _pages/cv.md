@@ -12,8 +12,7 @@ redirect_from:
 
 You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" target="_blank">here</a>
 
-Education
-======
+
 <div style="
     border: 1px solid #e0e0e0;        /* Light grey border */
     padding: 15px;                    /* Space inside the box */
@@ -21,6 +20,9 @@ Education
     border-radius: 5px;               /* Slightly rounded corners */
     background-color: #fcfcfc;        /* Very light background color */
 ">
+    Education
+    ======
+
     <div style="display: flex; justify-content: space-between; width: 100%;">
         <div>
             PhD in Physics<br>
@@ -32,7 +34,7 @@ Education
         </div>
     </div>
 
-    <div style="height:9px;"></div>
+    <div style="height:10px;"></div>
 
     <div style="display: flex; justify-content: space-between; width: 100%;">
         <div>
@@ -45,7 +47,7 @@ Education
         </div>
     </div>
 
-    <div style="height:9px;"></div>
+    <div style="height:10px;"></div>
 
     <div style="display: flex; justify-content: space-between; width: 100%;">
         <div>
@@ -62,6 +64,13 @@ Education
 
 <br>
 
+<div style="
+    border: 1px solid #e0e0e0;        /* Light grey border */
+    padding: 15px;                    /* Space inside the box */
+    margin: 20px 0;                   /* Space above and below the box */
+    border-radius: 5px;               /* Slightly rounded corners */
+    background-color: #fcfcfc;        /* Very light background color */
+">
 Research Experience
 ======
 <div style="display: flex; justify-content: space-between; width: 100%;">
@@ -103,6 +112,7 @@ Research Experience
     Tacoma, WA
   </div>
 </div>
+</div>
 
 <br>
 
@@ -118,6 +128,13 @@ Research Experience
 * Research Assistant, University of Puget Sound (2017)
     * Worked with Dr. Randy Worland to experimentally investigate the effects of commercial dampeners on the modal decay rates of a circular drum -->
 
+<div style="
+    border: 1px solid #e0e0e0;        /* Light grey border */
+    padding: 15px;                    /* Space inside the box */
+    margin: 20px 0;                   /* Space above and below the box */
+    border-radius: 5px;               /* Slightly rounded corners */
+    background-color: #fcfcfc;        /* Very light background color */
+">
 Teaching Experience
 ======
 <div style="display: flex; justify-content: space-between; width: 100%;">
@@ -158,6 +175,7 @@ Teaching Experience
     <em>2020</em><br>
     Williamsburg, VA
   </div>
+</div>
 </div>
 
 <br>
