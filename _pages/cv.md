@@ -12,41 +12,52 @@ redirect_from:
 
 You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" target="_blank">here</a>
 
-<div style="display: flex; justify-content: space-between; width: 100%;">
-  <div>
-    Doctor of Philosophy in Physics<br>
-    College of William & Mary
-  </div>
-  <div style="text-align: right;">
-    <em>Expected 2025</em><br>
-    Williamsburg, VA
-  </div>
-</div>
+Education
+======
+<div style="
+    border: 1px solid #e0e0e0;        /* Light grey border */
+    padding: 15px;                    /* Space inside the box */
+    margin: 20px 0;                   /* Space above and below the box */
+    border-radius: 5px;               /* Slightly rounded corners */
+    background-color: #fcfcfc;        /* Very light background color */
+">
+    <div style="display: flex; justify-content: space-between; width: 100%;">
+        <div>
+            <strong>Doctor of Philosophy in Physics</strong><br>
+            College of William & Mary
+        </div>
+        <div style="text-align: right;">
+            <em>Expected 2025</em><br>
+            Williamsburg, VA
+        </div>
+    </div>
+    
+    <div style="height:7px;"></div>
 
-<div style="height:7px;"></div>
+    <div style="display: flex; justify-content: space-between; width: 100%;">
+        <div>
+            Master of Science in Physics<br>
+            College of William & Mary
+        </div>
+        <div style="text-align: right;">
+            2021<br>
+            Williamsburg, VA
+        </div>
+    </div>
 
-<div style="display: flex; justify-content: space-between; width: 100%;">
-  <div>
-    Master of Science in Physics<br>
-    College of William & Mary
-  </div>
-  <div style="text-align: right;">
-    2021<br>
-    Williamsburg, VA
-  </div>
-</div>
+    <div style="height:7px;"></div>
 
-<div style="height:7px;"></div>
-
-<div style="display: flex; justify-content: space-between; width: 100%;">
-  <div>
-    Bachelor of Science in Physics and Mathematics<br>
-    University of Puget Sound
-  </div>
-  <div style="text-align: right;">
-    2019<br>
-    Tacoma, WA
-  </div>
+    <div style="display: flex; justify-content: space-between; width: 100%;">
+        <div>
+            Bachelor of Science in Physics and Mathematics<br>
+            University of Puget Sound
+        </div>
+        <div style="text-align: right;">
+            2019<br>
+            Tacoma, WA
+        </div>
+    </div>
+    
 </div>
 
 <br>
