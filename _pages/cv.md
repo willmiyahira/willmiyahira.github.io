@@ -12,8 +12,7 @@ redirect_from:
 
 You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" target="_blank">here</a>
 
-Education
-======
+{% capture edu_content %}
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
     Doctor of Philosophy in Physics<br>
@@ -50,6 +49,9 @@ Education
     Tacoma, WA
   </div>
 </div>
+{% endcapture %}
+
+{% include note.html content=edu_content %}
 
 <br>
 
@@ -115,7 +117,7 @@ Teaching Experience
   <div>
     Teaching Assistant<br>
     Course: Analog Electronics<br>
-    Collge of William & Mary
+    College of William & Mary
   </div>
   <div style="text-align: right;">
     <em>2021</em><br>
@@ -129,7 +131,7 @@ Teaching Experience
   <div>
     Teaching Assistant<br>
     Course: Introductory Physics Laboratory<br>
-    Collge of William & Mary
+    College of William & Mary
   </div>
   <div style="text-align: right;">
     <em>2019-2020</em><br>
@@ -143,7 +145,7 @@ Teaching Experience
   <div>
     Grader<br>
     Course: Mathematical Physics<br>
-    Collge of William & Mary
+    College of William & Mary
   </div>
   <div style="text-align: right;">
     <em>2020</em><br>
