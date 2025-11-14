@@ -31,7 +31,7 @@ One of my first major projects during my PhD was the simulation of a microwave a
 <h2 style="margin-top: 0;">Dipoles in Quantum Field Theory</h2>
 <img src="/images/dipolesInQFTPaper.png" align="left" width="25%"/>
 This work came during a summer working with Dr. David Latimer at the University of Puget Sound. We show that in the low-energy limit, one can derive the classical electric and magnetic fields of a pure dipole from quantum field theory (QFT) calculations. There's also a nice section on Fourier transforms as welll.
-
+<br>
 <a href="/files/Dipoles in QFT.pdf" target="_blank">Link to Paper</a>.
 </div>
 
