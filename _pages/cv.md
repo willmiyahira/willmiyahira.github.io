@@ -19,40 +19,43 @@ Education
 * B.S in Physics and Mathematics, University of Puget Sound, 2015-2019 
 ## Education
 
-<table style="width:100%; border-collapse: collapse;">
-  <tr>
-    <td>
-      **Doctor of Philosophy in Physics**  
-      William & Mary
-    </td>
-    <td style="text-align:right;">
-      *Expected 2025*  
-      Williamsburg, VA
-    </td>
-  </tr>
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div>
+    <strong>Doctor of Philosophy in Physics</strong><br>
+    William & Mary
+  </div>
+  <div style="text-align: right;">
+    <em>Expected 2025</em><br>
+    Williamsburg, VA
+  </div>
+</div>
 
-  <tr>
-    <td>
-      **Master of Science in Physics**  
-      William & Mary
-    </td>
-    <td style="text-align:right;">
-      2021  
-      Williamsburg, VA
-    </td>
-  </tr>
+<br>
 
-  <tr>
-    <td>
-      **Bachelor of Science in Physics**  
-      University of Puget Sound
-    </td>
-    <td style="text-align:right;">
-      2019  
-      Tacoma, WA
-    </td>
-  </tr>
-</table>
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div>
+    <strong>Master of Science in Physics</strong><br>
+    William & Mary
+  </div>
+  <div style="text-align: right;">
+    2021<br>
+    Williamsburg, VA
+  </div>
+</div>
+
+<br>
+
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div>
+    <strong>Bachelor of Science in Physics and Mathematics</strong><br>
+    University of Puget Sound
+  </div>
+  <div style="text-align: right;">
+    2019<br>
+    Tacoma, WA
+  </div>
+</div>
+
 
 
 Employment History
