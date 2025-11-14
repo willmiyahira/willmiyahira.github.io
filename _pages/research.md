@@ -18,11 +18,22 @@ One of my first major projects during my PhD was the simulation of a microwave a
 
 <a href="/files/Microwave Atom Chip Design.pdf" target="_blank">Link to Paper</a>.
 
-## Dipoles in Quantum Field Theory
+## Undergraduate Research Projects
+<hr style="height: 4px; border: none; background-color: black;">
+
+<div style="
+    border: 1px solid #e0e0e0;        /* Light grey border */
+    padding: 15px;                    /* Space inside the box */
+    margin: 20px 0;                   /* Space above and below the box */
+    border-radius: 5px;               /* Slightly rounded corners */
+    background-color: #fcfcfc;        /* Very light background color */
+">
+<h2 style="margin-top: 0;">Dipoles in Quantum Field Theory</h2>
 <img src="/images/dipolesInQFTPaper.png" align="left" width="25%"/>
 This work came during a summer working with Dr. David Latimer at the University of Puget Sound. We show that in the low-energy limit, one can derive the classical electric and magnetic fields of a pure dipole from quantum field theory (QFT) calculations. There's also a nice section on Fourier transforms as welll.
 
 <a href="/files/Dipoles in QFT.pdf" target="_blank">Link to Paper</a>.
+</div>
 
 ## Dampened Drum Mode Decay
 <img src="/images/ESPIpic.png" align="left" width="40%" style="padding-right: 20px; display: block; border: none;"/>
