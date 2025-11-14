@@ -180,10 +180,12 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
     background-color: #fcfcfc;        /* Very light background color */
 ">
 <h2 style="margin-top: 0;">Honors and Awards</h2>
-* FIO+LS Laser Cooling and Trapping Technical Group Poster Competition Winner -- 2024
-* Virginia Space Grant Consortium Graduate Fellowship -- 2022-24
-* APS Northwest Division Conference top undergraduate research poster -- 2018
-* University of Puget Sound Concerto Aria Competition Winner -- 2018
-* Eagle Scout -- 2015
+    <ul>
+        <li>FIO+LS Laser Cooling and Trapping Technical Group Poster Competition Winner -- 2024</li>
+        <li>Virginia Space Grant Consortium Graduate Fellowship -- 2022-24</li>
+        <li>APS Northwest Division Conference top undergraduate research poster -- 2018</li>
+        <li>University of Puget Sound Concerto Aria Competition Winner -- 2018</li>
+        <li>Eagle Scout -- 2015</li>
+    </ul>
 
 <div>
