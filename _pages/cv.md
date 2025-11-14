@@ -23,7 +23,7 @@ Education
 ">
     <div style="display: flex; justify-content: space-between; width: 100%;">
         <div>
-            <strong>Doctor of Philosophy in Physics</strong><br>
+            PhD in Physics<br>
             College of William & Mary
         </div>
         <div style="text-align: right;">
@@ -31,8 +31,8 @@ Education
             Williamsburg, VA
         </div>
     </div>
-    
-    <div style="height:7px;"></div>
+
+    <div style="height:9px;"></div>
 
     <div style="display: flex; justify-content: space-between; width: 100%;">
         <div>
@@ -45,7 +45,7 @@ Education
         </div>
     </div>
 
-    <div style="height:7px;"></div>
+    <div style="height:9px;"></div>
 
     <div style="display: flex; justify-content: space-between; width: 100%;">
         <div>
