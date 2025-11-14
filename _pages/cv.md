@@ -16,7 +16,7 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
 <div style="
     border: 1px solid #e0e0e0;        /* Light grey border */
     padding: 15px;                    /* Space inside the box */
-    margin: 10px 0;                   /* Space above and below the box */
+    margin: 1px 0;                   /* Space above and below the box */
     border-radius: 5px;               /* Slightly rounded corners */
     background-color: #fcfcfc;        /* Very light background color */
 ">
