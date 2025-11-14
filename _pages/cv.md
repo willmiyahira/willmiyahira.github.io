@@ -188,7 +188,7 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
         <li>Eagle Scout -- 2015</li>
     </ul>
 
-<div>
+</div>
 
 <div style="
     border: 1px solid #e0e0e0;        /* Light grey border */
