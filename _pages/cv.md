@@ -14,11 +14,6 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
 
 Education
 ======
-* Ph.D in Physics, William & Mary, 2021-present 
-* M.S. in Physics, William & Mary, 2019-2021 
-* B.S in Physics and Mathematics, University of Puget Sound, 2015-2019 
-## Education
-
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
     <strong>Doctor of Philosophy in Physics</strong><br>
@@ -30,7 +25,7 @@ Education
   </div>
 </div>
 
-<div style="height:6px;"></div>
+<div style="height:7px;"></div>
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
@@ -43,7 +38,7 @@ Education
   </div>
 </div>
 
-<div style="height:6px;"></div>
+<div style="height:7px;"></div>
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
@@ -56,7 +51,7 @@ Education
   </div>
 </div>
 
-
+<br>
 
 Employment History
 ======
