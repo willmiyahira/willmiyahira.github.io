@@ -17,6 +17,43 @@ Education
 * Ph.D in Physics, William & Mary, 2021-present 
 * M.S. in Physics, William & Mary, 2019-2021 
 * B.S in Physics and Mathematics, University of Puget Sound, 2015-2019 
+## Education
+
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td>
+      **Doctor of Philosophy in Physics**  
+      William & Mary
+    </td>
+    <td style="text-align:right;">
+      *Expected 2025*  
+      Williamsburg, VA
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      **Master of Science in Physics**  
+      William & Mary
+    </td>
+    <td style="text-align:right;">
+      2021  
+      Williamsburg, VA
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      **Bachelor of Science in Physics**  
+      University of Puget Sound
+    </td>
+    <td style="text-align:right;">
+      2019  
+      Tacoma, WA
+    </td>
+  </tr>
+</table>
+
 
 Employment History
 ======
