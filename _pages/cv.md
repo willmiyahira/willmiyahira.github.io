@@ -16,11 +16,11 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
 <div style="
     border: 1px solid #e0e0e0;        /* Light grey border */
     padding: 15px;                    /* Space inside the box */
-    margin: 1px 0;                   /* Space above and below the box */
+    margin: 20px 0;                   /* Space above and below the box */
     border-radius: 5px;               /* Slightly rounded corners */
     background-color: #fcfcfc;        /* Very light background color */
 ">
-    <h2>Education</h2>
+    <h2 style="margin-top: 0;">Education</h2>
 
     <div style="display: flex; justify-content: space-between; width: 100%;">
         <div>
@@ -68,7 +68,7 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
     border-radius: 5px;               /* Slightly rounded corners */
     background-color: #fcfcfc;        /* Very light background color */
 ">
-<h2>Research Experience</h2>
+<h2 style="margin-top: 0;">Research Experience</h2>
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
     Graduate Research Assistant: Ultra-cold Atom Lab<br>
@@ -129,7 +129,7 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
     border-radius: 5px;               /* Slightly rounded corners */
     background-color: #fcfcfc;        /* Very light background color */
 ">
-<h2>Teaching Experience</h2>
+<h2 style="margin-top: 0;">Teaching Experience</h2>
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
     Teaching Assistant<br>
