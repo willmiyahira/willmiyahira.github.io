@@ -81,7 +81,7 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
   </div>
 </div>
 
-<div style="height:7px;"></div>
+<div style="height:10px;"></div>
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
@@ -95,7 +95,7 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
   </div>
 </div>
 
-<div style="height:7px;"></div>
+<div style="height:10px;"></div>
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
@@ -142,7 +142,7 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
   </div>
 </div>
 
-<div style="height:7px;"></div>
+<div style="height:10px;"></div>
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
@@ -156,7 +156,7 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
   </div>
 </div>
 
-<div style="height:7px;"></div>
+<div style="height:10px;"></div>
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
@@ -172,8 +172,18 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
 </div>
 
 
-Honors and Awards
-======
-* Virginia Space Grant Consortium Graduate Fellowship (2022-24)
-* University of Puget Sound Concerto Aria Competition Winner (2018)
-* Eagle Scout (2015)
+<div style="
+    border: 1px solid #e0e0e0;        /* Light grey border */
+    padding: 15px;                    /* Space inside the box */
+    margin: 20px 0;                   /* Space above and below the box */
+    border-radius: 5px;               /* Slightly rounded corners */
+    background-color: #fcfcfc;        /* Very light background color */
+">
+<h2 style="margin-top: 0;">Honors and Awards</h2>
+* FIO+LS Laser Cooling and Trapping Technical Group Poster Competition Winner -- 2024
+* Virginia Space Grant Consortium Graduate Fellowship -- 2022-24
+* APS Northwest Division Conference top undergraduate research poster -- 2018
+* University of Puget Sound Concerto Aria Competition Winner -- 2018
+* Eagle Scout -- 2015
+
+<div>
