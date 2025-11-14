@@ -1,14 +1,3 @@
-<style>
-.boxed {
-  border: 1px solid #ddd;
-  background: #f8f8f8;
-  padding: 18px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-</style>
-
-
 ---
 layout: archive
 title: "CV"
@@ -23,7 +12,6 @@ redirect_from:
 
 You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" target="_blank">here</a>
 
-<div class="boxed">
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
     Doctor of Philosophy in Physics<br>
@@ -59,7 +47,6 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
     2019<br>
     Tacoma, WA
   </div>
-</div>
 </div>
 
 <br>
