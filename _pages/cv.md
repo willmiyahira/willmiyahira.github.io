@@ -30,7 +30,7 @@ Education
   </div>
 </div>
 
-<br>
+<div style="height:6px;"></div>
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
@@ -43,7 +43,7 @@ Education
   </div>
 </div>
 
-<br>
+<div style="height:6px;"></div>
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
