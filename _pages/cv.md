@@ -16,7 +16,7 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
 <div style="
     border: 1px solid #e0e0e0;        /* Light grey border */
     padding: 15px;                    /* Space inside the box */
-    margin: 20px 0;                   /* Space above and below the box */
+    margin: 10px 0;                   /* Space above and below the box */
     border-radius: 5px;               /* Slightly rounded corners */
     background-color: #fcfcfc;        /* Very light background color */
 ">
@@ -60,8 +60,6 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
     </div>
     
 </div>
-
-<br>
 
 <div style="
     border: 1px solid #e0e0e0;        /* Light grey border */
@@ -111,8 +109,6 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
   </div>
 </div>
 </div>
-
-<br>
 
 <!-- * Graduate Research Assistant, William & Mary (2020-present)
     * Working in the Ultra-cold Atom Lab of Dr. Seth Aubin using atoms cooled to near absolute zero temperatures to make precision measurements of inertial forces and fundamental 
@@ -174,8 +170,6 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
   </div>
 </div>
 </div>
-
-<br>
 
 
 Honors and Awards
