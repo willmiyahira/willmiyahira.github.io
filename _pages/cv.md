@@ -189,3 +189,35 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
     </ul>
 
 <div>
+
+<div style="
+    border: 1px solid #e0e0e0;        /* Light grey border */
+    padding: 15px;                    /* Space inside the box */
+    margin: 20px 0;                   /* Space above and below the box */
+    border-radius: 5px;               /* Slightly rounded corners */
+    background-color: #fcfcfc;        /* Very light background color */
+">
+    <h2 style="margin-top: 0;">Professional Service</h2>
+    <div style="display: flex; justify-content: space-between; width: 100%;">
+    <div>
+        W&M Physics Graduate Student Association (PGSA) President
+    </div>
+    <div style="text-align: right;">
+        2024-2025
+    </div>
+    </div>
+
+<div style="height:10px;"></div>
+
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div>
+    W&M Optica Chapter Vice-President
+  </div>
+  <div style="text-align: right;">
+    2021-2025
+  </div>
+</div>
+
+
+
+</div>
