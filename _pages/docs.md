@@ -8,5 +8,5 @@ author_profile: true
 
 
 ## Physics Notes
-<hr style="height: 4px; border: none; background-color: black;">
+
 
