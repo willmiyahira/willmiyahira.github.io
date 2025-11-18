@@ -6,17 +6,31 @@ author_profile: true
 
 <hr style="height: 4px; border: none; background-color: black;">
 
-## Microwave Source with Digital Phase Control
-
+<div style="
+    border: 1px solid #e0e0e0;        /* Light grey border */
+    padding: 15px;                    /* Space inside the box */
+    margin: 20px 0;                   /* Space above and below the box */
+    border-radius: 5px;               /* Slightly rounded corners */
+    background-color: #fcfcfc;        /* Very light background color */
+">
+<h2 style="margin-top: 0;">Microwave Source with Digital Phase Control</h2>
 <img src="/images/iqModSource.png" align="left" width="35%"/>
 In order to trap and manipulate ultra-cold atoms in an AC Zeeman potential we need to be able to precisely control the relative phase between neighboring atom chip traces. I designed and constructed a multi-channel source centered at 6.834 GHz (Rb87 ground hyperfine splitting) using IQ modulation. This source offers precise digital phase control between channels, agilt frequency sweeping (+/- 50 MHz scan range), as well as ultra-low phase noise (around 90 dBc). Because of the precise control it provides I decided to name it after the rock climber Adam Ondra, who is able to make some of the hardest climbs in the world operating with great precision.
+</div>
 
-## Microwave Atom Chip Design
-
+<div style="
+    border: 1px solid #e0e0e0;        /* Light grey border */
+    padding: 15px;                    /* Space inside the box */
+    margin: 20px 0;                   /* Space above and below the box */
+    border-radius: 5px;               /* Slightly rounded corners */
+    background-color: #fcfcfc;        /* Very light background color */
+">
+<h2 style="margin-top: 0;">Microwave Atom Chip Design</h2>
 <img src="/images/microwaveAtomChipDesignPaper.png" align="left" width="45%"/>
 One of my first major projects during my PhD was the simulation of a microwave atom chip based on microstrip transmission lines for trapping and manipulating ultra-cold atoms via the AC Zeeman (ACZ) effect. This paper outlines the design considerations for such an atom chip, as well as covers basic 2-level ACZ theory and provides analytic expression for the trap position for different wire/microstrip configurations (thanks to [Drew Rotunno](https://rotunno.party/projects)). One of the more interesting things we found was how the proximity effect alters the current distribution in the chip traces based on the relative phase between microwave currents.
-
+<br>
 <a href="/files/Microwave Atom Chip Design.pdf" target="_blank">Link to Paper</a>.
+</div>
 
 ## Undergraduate Research Projects
 <hr style="height: 4px; border: none; background-color: black;">
