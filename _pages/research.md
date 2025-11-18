@@ -15,7 +15,7 @@ author_profile: true
 ">
 <h2 style="margin-top: 0;">Microwave Source with Digital Phase Control</h2>
 <img src="/images/iqModSource.png" align="left" width="35%"/>
-In order to trap and manipulate ultra-cold atoms in an AC Zeeman potential we need to be able to precisely control the relative phase between neighboring atom chip traces. I designed and constructed a multi-channel source centered at 6.834 GHz (Rb87 ground hyperfine splitting) using IQ modulation. This source offers precise digital phase control between channels, agilt frequency sweeping (+/- 50 MHz scan range), as well as ultra-low phase noise (around 90 dBc). Because of the precise control it provides I decided to name it after the rock climber Adam Ondra, who is able to make some of the hardest climbs in the world operating with great precision.
+In order to trap and manipulate ultra-cold atoms in an AC Zeeman potential we need to be able to precisely control the relative phase between neighboring atom chip traces. I designed and constructed a multi-channel source centered at 6.834 GHz (the Rb87 ground hyperfine splitting) using IQ modulation of an ultra-low phase noise microwave signal. This source offers precise digital phase control between channels, agile frequency sweeping (+/- 50 MHz scan range), as well as ultra-low phase noise (around 90 dBc). Such a source can be used to make a transverse ACZ trap or operate a microwave lattice for axial trapping and translation. Because of the precise control it provides I decided to name it after the rock climber Adam Ondra, who is able to make some of the hardest climbs in the world operating with great precision.
 <br>
 </div>
 
