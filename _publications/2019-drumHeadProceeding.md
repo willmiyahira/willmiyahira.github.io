@@ -1,7 +1,7 @@
 ---
 title: "Physics of musical drum head damping using externally applied products"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/drumHeadProceeding2019/
 date: 2018-09-05
 venue: "ASA"

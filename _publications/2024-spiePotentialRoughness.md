@@ -1,7 +1,7 @@
 ---
 title: "Potential roughness suppression in a RF AC Zeeman atom chip trap"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/spiePotentialRoughness2024/
 date: 2024-01-20
 venue: "SPIE"
