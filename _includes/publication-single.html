@@ -5,30 +5,16 @@
 
   {% if post.image %}
     <div class="publication-image">
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">
-      {% else %}
-        <a href="{{ post.url | prepend: base_path }}" target="_blank" rel="noopener noreferrer">
-      {% endif %}
-
-        <img
-          src="{{ post.image | relative_url }}"
-          alt="{{ post.image_alt | default: post.title }}"
-          loading="lazy">
-
-        </a>
+      <img
+        src="{{ post.image | relative_url }}"
+        alt="{{ post.image_alt | default: post.title }}"
+        loading="lazy">
     </div>
   {% endif %}
 
   <div class="publication-info">
 
-    <h3>
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
-      {% else %}
-        <a href="{{ post.url | prepend: base_path }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
-      {% endif %}
-    </h3>
+    <h3>{{ post.title }}</h3>
 
     <p class="publication-venue">
       {{ post.citation | default: post.venue }}
@@ -41,7 +27,7 @@
     <div class="publication-links">
 
       {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">Journal</a>
+        <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">Paper</a>
       {% endif %}
 
       {% if post.pdfurl %}
