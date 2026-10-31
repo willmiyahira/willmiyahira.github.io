@@ -10,5 +10,6 @@ image: /images/publications/rfacz_force_paper.png
 image_alt: ""
 
 paperurl: "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.063321"
+pdfurl: /files/Radio_frequency ac Zeeman force for ultracold atoms.pdf
 citation: "Rotunno, A. P., Miyahira, W., Du, S., & Aubin, S. (2024). Radio-frequency ac Zeeman force for ultracold atoms. Physical Review A, 110(6), 063321."
 ---
