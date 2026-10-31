@@ -2,7 +2,7 @@
 title: "Suppression of potential roughness in atom-chip ac Zeeman traps"
 collection: publications
 category: manuscripts
-permalink: /publication/atom-chip/
+permalink: /publication/aczRoughnessSuppression2022pra/
 date: 2022-31-05
 venue: "Physical Review A"
 

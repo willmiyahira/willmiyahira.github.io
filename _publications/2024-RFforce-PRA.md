@@ -2,7 +2,7 @@
 title: "Radio-frequency ac Zeeman force for ultracold atoms"
 collection: publications
 category: manuscripts
-permalink: /publication/atom-chip/
+permalink: /publication/rfACZforce2024pra/
 date: 2024-12-23
 venue: "Physical Review A"
 
