@@ -40,3 +40,8 @@ S. Du, A. R. Ziltz, **W. Miyahira**, and S. Aubin\
 R. Worland, **W. Miyahira**\
 <a href="/files/drumheadDecayWorlandProceeding.pdf" target="_blank">Physics of musical drum head damping using externally applied products</a>\
 *Proc. Mtgs. Acoust.* 35, 035004 (2018).
+
+## PhD Dissertation
+**W. Miyahira**\
+<a href="https://saaubi.people.wm.edu/ResearchGroup/AubinTheses/Miyahira_PhD_2026.pdf" target="_blank">AC Zeeman Potentials for Ultracold Atom Experiments: Suppressing Potential Roughness and the Development of a Microwave Atom Chip</a>\
+PhD Thesis, The College of William and Mary (2026).
