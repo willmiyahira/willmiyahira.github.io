@@ -24,11 +24,11 @@ author:
   avatar           : "whmPortrait.png"
   name             : "William Miyahira"
   pronouns         : # example: "she/her"  
-  bio              : "AMO PhD Researcher"
-  location         : "Williamsburg, VA"
-  employer         : "William & Mary"
+  bio              : "AMO Researcher"
+  location         : "Groningen, Netherlands"
+  employer         : "Nikhef"
   uri              : # URL
-  email            : "whmiyahira@wm.edu" 
+  email            : "w.h.miyahira@rug.nl" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
