@@ -1,0 +1,58 @@
+
+{% include base_path %}
+
+<div class="publication-item">
+
+  {% if post.paperurl %}
+    <a href="{{ post.paperurl }}">
+    {% else %}
+    <a href="{{ post.url | prepend: base_path }}">
+    {% endif %}
+
+    <img
+    src="{{ post.image | relative_url }}"
+    alt="{{ post.image_alt | default: post.title }}"
+    loading="lazy">
+
+    </a>
+  </div>
+  {% endif %}
+
+  <div class="publication-info">
+
+    <h3>
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}">{{ post.title }}</a>
+      {% else %}
+        <a href="{{ post.url | prepend: base_path }}">{{ post.title }}</a>
+      {% endif %}
+    </h3>
+
+    <p class="publication-venue">
+      {{ post.citation | default: post.venue }}
+    </p>
+
+    {% if post.excerpt %}
+      <p>{{ post.excerpt }}</p>
+    {% endif %}
+
+    <div class="publication-links">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}">Paper</a>
+      {% endif %}
+
+      {% if post.slidesurl %}
+        <a href="{{ post.slidesurl }}">Slides</a>
+      {% endif %}
+
+      {% if post.bibtexurl %}
+        <a href="{{ post.bibtexurl }}">BibTeX</a>
+      {% endif %}
+
+      {% if post.codeurl %}
+        <a href="{{ post.codeurl }}">Code</a>
+      {% endif %}
+    </div>
+
+  </div>
+</div>
