@@ -3,19 +3,21 @@
 
 <div class="publication-item">
 
-  {% if post.paperurl %}
-    <a href="{{ post.paperurl }}">
-    {% else %}
-    <a href="{{ post.url | prepend: base_path }}">
-    {% endif %}
+  {% if post.image %}
+    <div class="publication-image">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}">
+      {% else %}
+        <a href="{{ post.url | prepend: base_path }}">
+      {% endif %}
 
-    <img
-    src="{{ post.image | relative_url }}"
-    alt="{{ post.image_alt | default: post.title }}"
-    loading="lazy">
+        <img
+          src="{{ post.image | relative_url }}"
+          alt="{{ post.image_alt | default: post.title }}"
+          loading="lazy">
 
-    </a>
-  </div>
+        </a>
+    </div>
   {% endif %}
 
   <div class="publication-info">
