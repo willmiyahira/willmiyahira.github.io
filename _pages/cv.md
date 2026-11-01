@@ -71,8 +71,7 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
 <h2 style="margin-top: 0;">Research Experience</h2>
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
-    Postdoctoral Researcher<br>
-    NL-eEDM Collaboration<br>
+    Postdoctoral Researcher: NL-eEDM Collaboration<br>
     Nikhef
   </div>
   <div style="text-align: right;">
