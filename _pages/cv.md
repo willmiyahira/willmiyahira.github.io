@@ -28,7 +28,7 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
             College of William & Mary
         </div>
         <div style="text-align: right;">
-            <em>Expected 2025</em><br>
+            2026<br>
             Williamsburg, VA
         </div>
     </div>
@@ -71,12 +71,27 @@ You can download my resume <a href="/files/Resume_William_Miyahira__Short_.pdf" 
 <h2 style="margin-top: 0;">Research Experience</h2>
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <div>
+    Postdoctoral Researcher<br>
+    NL-eEDM Collaboration<br>
+    Nikhef
+  </div>
+  <div style="text-align: right;">
+    <em>2026 -- present</em><br>
+    Groningen, Netherlands
+  </div>
+</div>
+
+<div style="height:10px;"></div>
+
+
+<div style="display: flex; justify-content: space-between; width: 100%;">
+  <div>
     Graduate Research Assistant: Ultra-cold Atom Lab<br>
     Advisor: Seth Aubin<br>
     College of William & Mary
   </div>
   <div style="text-align: right;">
-    <em>2020 -- present</em><br>
+    <em>2020 -- 2026</em><br>
     Williamsburg, VA
   </div>
 </div>
