@@ -1,4 +1,3 @@
-
 .publication-item {
   display: grid;
   grid-template-columns: 180px minmax(0, 1fr);
@@ -9,13 +8,23 @@
   border-bottom: 1px solid #e5e5e5;
 }
 
-.publication-image img {
+.publication-image {
   width: 100%;
-  aspect-ratio: auto;
-  object-fit: contain;
+  max-width: 180px;
+  overflow: visible;
+}
+
+.publication-image img {
+  display: block;
+  width: 100% !important;
+  height: 150px !important;
+  max-width: 100%;
+  object-fit: contain !important;
+  object-position: center;
   border-radius: 4px;
 }
 
+/* Publication text */
 .publication-info h3 {
   margin-top: 0;
   margin-bottom: 8px;
@@ -48,7 +57,11 @@
     gap: 12px;
   }
 
-  .publication-image img {
+  .publication-image {
     max-width: 240px;
+  }
+
+  .publication-image img {
+    height: 180px !important;
   }
 }
