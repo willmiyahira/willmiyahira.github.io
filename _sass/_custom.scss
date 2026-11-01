@@ -11,8 +11,8 @@
 
 .publication-image img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  aspect-ratio: auto;
+  object-fit: contain;
   border-radius: 4px;
 }
 
