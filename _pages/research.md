@@ -1,66 +1,157 @@
+
 ---
 permalink: /research/
 title: "Research Projects"
 author_profile: true
 ---
 
-<hr style="height: 4px; border: none; background-color: black;">
+<p class="research-intro">
+  An overview of my research in experimental AMO physics, ultracold atoms,
+  atom-chip technology, and precision measurements.
+</p>
 
-<div style="
-    border: 1px solid #e0e0e0;        /* Light grey border */
-    padding: 15px;                    /* Space inside the box */
-    margin: 20px 0;                   /* Space above and below the box */
-    border-radius: 5px;               /* Slightly rounded corners */
-    background-color: #fcfcfc;        /* Very light background color */
-">
-<h2 style="margin-top: 0;">Microwave Source with Digital Phase Control</h2>
-<img src="/images/iqModSource.png" align="left" width="35%"/>
-In order to trap and manipulate ultra-cold atoms in an AC Zeeman potential we need to be able to precisely control the relative phase between neighboring atom chip traces. I designed and constructed a multi-channel source centered at 6.834 GHz (the Rb87 ground hyperfine splitting) using IQ modulation of an ultra-low phase noise microwave signal. This source offers precise digital phase control between channels, agile frequency sweeping (+/- 50 MHz scan range), as well as ultra-low phase noise (around 90 dBc). Such a source can be used to make a transverse ACZ trap or operate a microwave lattice for axial trapping and translation. Because of the precise control it provides I decided to name it after the rock climber Adam Ondra, who is able to make some of the hardest climbs in the world operating with great precision.
-<br>
+<div class="research-project">
+
+  <div class="research-project-gallery">
+    <img src="{{ '/images/iqModSource.png' | relative_url }}"
+         alt="Microwave source with digital phase control">
+  </div>
+
+  <div class="research-project-content">
+    <h2>Microwave Source with Digital Phase Control</h2>
+
+    <p>
+      In order to trap and manipulate ultracold atoms in an AC Zeeman
+      potential, we need to precisely control the relative phase between
+      neighboring atom-chip traces. I designed and constructed a
+      multi-channel source centered at 6.834 GHz (the Rb-87 ground-state
+      hyperfine splitting) using IQ modulation of an ultra-low-phase-noise
+      microwave signal.
+    </p>
+
+    <p>
+      This source offers precise digital phase control between channels,
+      agile frequency sweeping (±50 MHz scan range), and ultra-low phase
+      noise (around 90 dBc). It can be used to make a transverse ACZ trap
+      or operate a microwave lattice for axial trapping and translation.
+      Because of the precise control it provides, I named it after the
+      rock climber Adam Ondra, who is able to make some of the hardest
+      climbs in the world with great precision.
+    </p>
+  </div>
+
 </div>
 
-<div style="
-    border: 1px solid #e0e0e0;        /* Light grey border */
-    padding: 15px;                    /* Space inside the box */
-    margin: 20px 0;                   /* Space above and below the box */
-    border-radius: 5px;               /* Slightly rounded corners */
-    background-color: #fcfcfc;        /* Very light background color */
-">
-<h2 style="margin-top: 0;">Microwave Atom Chip Design</h2>
-<img src="/images/microwaveAtomChipDesignPaper.png" align="left" width="40%"/>
-One of my first major projects during my PhD was the simulation of a microwave atom chip based on microstrip transmission lines for trapping and manipulating ultra-cold atoms via the AC Zeeman (ACZ) effect. This paper outlines the design considerations for such an atom chip, as well as covers basic 2-level ACZ theory and provides analytic expression for the trap position for different wire/microstrip configurations (thanks to [Drew Rotunno](https://rotunno.party/projects)). One of the more interesting things we found was how the proximity effect alters the current distribution in the chip traces based on the relative phase between microwave currents.
-<br>
-<a href="/files/Microwave Atom Chip Design.pdf" target="_blank">Link to Paper</a>.
+
+<div class="research-project">
+
+  <div class="research-project-gallery">
+    <img src="{{ '/images/microwaveAtomChipDesignPaper.png' | relative_url }}"
+         alt="Microwave atom-chip design">
+  </div>
+
+  <div class="research-project-content">
+    <h2>Microwave Atom Chip Design</h2>
+
+    <p>
+      One of my first major projects during my PhD was the simulation of
+      a microwave atom chip based on microstrip transmission lines for
+      trapping and manipulating ultracold atoms via the AC Zeeman (ACZ)
+      effect.
+    </p>
+
+    <p>
+      This work outlines the design considerations for such an atom chip,
+      covers basic two-level ACZ theory, and provides analytic expressions
+      for the trap position for different wire and microstrip configurations
+      (in collaboration with
+      <a href="https://rotunno.party/projects" target="_blank"
+         rel="noopener noreferrer">Drew Rotunno</a>).
+    </p>
+
+    <p>
+      One interesting result was how the proximity effect alters the
+      current distribution in the chip traces depending on the relative
+      phase between microwave currents.
+    </p>
+
+    <div class="research-project-links">
+      <a href="{{ '/files/Microwave Atom Chip Design.pdf' | relative_url }}"
+         target="_blank" rel="noopener noreferrer">Read the paper →</a>
+    </div>
+  </div>
+
 </div>
 
-## Undergraduate Research Projects
-<hr style="height: 4px; border: none; background-color: black;">
 
-<div style="
-    border: 1px solid #e0e0e0;        /* Light grey border */
-    padding: 15px;                    /* Space inside the box */
-    margin: 20px 0;                   /* Space above and below the box */
-    border-radius: 5px;               /* Slightly rounded corners */
-    background-color: #fcfcfc;        /* Very light background color */
-">
-<h2 style="margin-top: 0;">Dipoles in Quantum Field Theory</h2>
-<img src="/images/dipolesInQFTPaper.png" align="left" width="25%"/>
-This work came during a summer working with Dr. David Latimer at the University of Puget Sound. We show that in the low-energy limit, one can derive the classical electric and magnetic fields of a pure dipole from quantum field theory (QFT) calculations. There's also a nice section on Fourier transforms as welll.
-<br>
-<a href="/files/Dipoles in QFT.pdf" target="_blank">Link to Paper</a>.
+<h2 class="research-section-heading">Undergraduate Research</h2>
+
+
+<div class="research-project">
+
+  <div class="research-project-gallery">
+    <img src="{{ '/images/dipolesInQFTPaper.png' | relative_url }}"
+         alt="Dipoles in quantum field theory paper">
+  </div>
+
+  <div class="research-project-content">
+    <h2>Dipoles in Quantum Field Theory</h2>
+
+    <p>
+      This work came during a summer working with Dr. David Latimer at the
+      University of Puget Sound. We show that, in the low-energy limit,
+      one can derive the classical electric and magnetic fields of a pure
+      dipole from quantum field theory (QFT) calculations.
+    </p>
+
+    <p>
+      The work also includes a discussion of Fourier transforms and
+      their role in connecting the quantum-field-theory description
+      to the classical fields.
+    </p>
+
+    <div class="research-project-links">
+      <a href="{{ '/files/Dipoles in QFT.pdf' | relative_url }}"
+         target="_blank" rel="noopener noreferrer">Read the paper →</a>
+    </div>
+  </div>
+
 </div>
 
-<div style="
-    border: 1px solid #e0e0e0;        /* Light grey border */
-    padding: 15px;                    /* Space inside the box */
-    margin: 20px 0;                   /* Space above and below the box */
-    border-radius: 5px;               /* Slightly rounded corners */
-    background-color: #fcfcfc;        /* Very light background color */
-">
-<h2 style="margin-top: 0;">Dampened Drum Mode Decay</h2>
-<img src="/images/ESPIpic.png" align="left" width="40%" style="padding-right: 20px; display: block; border: none;"/>
-As a drummer and percussionist, I often put something on the head of the drum (i.e. a wallet, Moongel, etc.) to eliminate high-frequency pitches when the drum is struck. I brought the idea of studying how using these dampeners effect the decay times of the different normal modes of the drum to Dr. Randy Worland at the University of Puget Sound, who has expertise in the physics of musical accoustics. One of the best parts of this work was being able to use an electronic speckle pattern interferometer (ESPI) to image the normal modes of a drum in real time. In the picture you can actually see the shape of the normal modes! We were able to use a spectrum analyzer in waterfall mode to measure the decay rates of different modes to pin down which rang out when struck and measure how the addition of a dampener causes certain modes to decay faster.
-<br>
-<br>
-More details can be found in <a href="/files/drumheadDecayWorlandProceeding.pdf" target="_blank">this conference proceeding</a>. 
+
+<div class="research-project">
+
+  <div class="research-project-gallery">
+    <img src="{{ '/images/ESPIpic.png' | relative_url }}"
+         alt="Electronic speckle pattern interferometry image of drum modes">
+  </div>
+
+  <div class="research-project-content">
+    <h2>Dampened Drum Mode Decay</h2>
+
+    <p>
+      As a drummer and percussionist, I often put something on the head
+      of a drum (a wallet, Moongel, etc.) to eliminate high-frequency
+      pitches when the drum is struck. I brought the idea of studying
+      how these dampeners affect the decay times of different normal
+      modes of a drum to Dr. Randy Worland at the University of Puget Sound,
+      who specializes in the physics of musical acoustics.
+    </p>
+
+    <p>
+      One of the highlights of this work was using an electronic speckle
+      pattern interferometer (ESPI) to image the normal modes of a drum
+      in real time. We used a spectrum analyzer in waterfall mode to
+      measure the decay rates of different modes and investigate how
+      adding a dampener changes their decay.
+    </p>
+
+    <div class="research-project-links">
+      <a href="{{ '/files/drumheadDecayWorlandProceeding.pdf' | relative_url }}"
+         target="_blank" rel="noopener noreferrer">
+        Read the conference proceeding →
+      </a>
+    </div>
+  </div>
+
 </div>
