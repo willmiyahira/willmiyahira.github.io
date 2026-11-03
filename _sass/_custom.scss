@@ -187,3 +187,33 @@
     height: 170px;
   }
 }
+
+.research-project-description {
+  font-size: 0.95em;
+  line-height: 1.7;
+}
+
+.research-project-description p {
+  margin-bottom: 12px;
+}
+
+.research-project-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  align-items: center;
+}
+
+.research-project-gallery img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.research-project-gallery img:only-child {
+  grid-column: 1 / -1;
+  height: 220px;
+}

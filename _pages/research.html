@@ -1,0 +1,28 @@
+
+---
+layout: archive
+title: "Research Projects"
+permalink: /research/
+author_profile: true
+---
+
+<p class="research-intro">
+  My research focuses on experimental AMO physics, with an emphasis on
+  atom-chip technology, AC Zeeman trapping, and precision measurement.
+</p>
+
+{% assign projects = site.research | sort: "order" %}
+
+{% for project in projects %}
+
+  {% if project.order == 3 %}
+    <h2 class="research-section-heading">Additional Projects</h2>
+  {% endif %}
+
+  {% if project.order == 5 %}
+    <h2 class="research-section-heading">Undergraduate Research</h2>
+  {% endif %}
+
+  {% include research-single.html %}
+
+{% endfor %}

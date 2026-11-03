@@ -1,0 +1,35 @@
+
+<div class="research-project">
+
+  <div class="research-project-gallery">
+    {% for image in project.images %}
+      <img
+        src="{{ image.src | relative_url }}"
+        alt="{{ image.alt | default: project.title }}"
+        loading="lazy">
+    {% endfor %}
+  </div>
+
+  <div class="research-project-content">
+
+    <h2>{{ project.title }}</h2>
+
+    <div class="research-project-description">
+      {{ project.content }}
+    </div>
+
+    {% if project.links %}
+      <div class="research-project-links">
+        {% for link in project.links %}
+          <a href="{{ link.url }}"
+             target="_blank"
+             rel="noopener noreferrer">
+            {{ link.label }} →
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+  </div>
+
+</div>
