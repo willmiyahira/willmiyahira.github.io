@@ -1,4 +1,3 @@
-
 ---
 title: "RF AC Zeeman Trapping and Atom Manipulation"
 order: 1
